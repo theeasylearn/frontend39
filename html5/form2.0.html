@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="temp.js" autocomplete="off" novalidate>
+            <p>
+                <label for="color">Color : </label>
+                <input type="color" name="color" id="color" />
+            </p>
+
+            <p>
+                <label for="date">Date : </label>
+                <input type="date" name="date" id="date" required />
+            </p>
+
+            <p>
+                <label for="datetime">Date time : </label>
+                <input type="datetime" name="datetime" id="datetime" autofocus />
+            </p>
+
+            <p>
+                <label for="datetime-local">datetime-local : </label>
+                <input
+                    type="datetime-local"
+                    name="datetime-local"
+                    id="datetime-local"
+                />
+            </p>
+
+            <p>
+                <label for="email">Email : </label>
+                <input type="email" name="email" id="email" autocomplete="on" required autofocus />
+            </p>
+
+            <p>
+                <label for="month">Month : </label>
+                <input type="month" name="" id="month" />
+            </p>
+
+            <p>
+                <label for="number">Number : </label>
+                <input type="number" name="" id="number" autofocus />
+            </p>
+
+            <p>
+                <label for="range">Range : </label>
+                <input type="range" name="" id="range" />
+            </p>
+
+            <p>
+                <label for="search">Search : </label>
+                <input type="search" name="" id="search" />
+            </p>
+
+            <p>
+                <label for="tel">Tel : </label>
+                <input type="tel" name="" id="tel" />
+            </p>
+
+            <p>
+                <label for="time">time : </label>
+                <input type="time" name="" id="time" />
+            </p>
+
+            <p>
+                <label for="url">url : </label>
+                <input type="url" name="" id="url" />
+            </p>
+
+            <p>
+                <label for="week">week : </label>
+                <input type="week" name="" id="week" />
+            </p>
+
+            <p>
+                <input style="height: 50px; width: 40px;" type="image" src="../assets/img/bird.jpg" alt="asdf">
+            </p>
+            <p>
+                <input style="height: 50px; width: 40px;" type="image" src="../assets/img/eagles.jpg" formaction="auth.js" alt="asdf">
+            </p>
+            <p>
+                <input type="submit" name="submit" id="submit" value="submit" />
+                <input type="submit" value="teachers" formaction="validate.js">
+                <input type="submit" value="authorization" formaction="auth.js">
+                <input type="reset" name="reset" id="reset" value="reset" />
+            </p>
+        </form>
+    </body>
+</html>
